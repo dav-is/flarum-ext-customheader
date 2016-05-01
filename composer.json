@@ -1,0 +1,35 @@
+{
+    "name": "davis/flarum-ext-customheader",
+    "description": "Allows Addition of Custom Header",
+    "keywords": ["flarum", "davis", "customization", "header"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Connor Davis",
+            "email": "davis@produes.co"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/dav-is/flarum-ext-customheader/issues",
+        "source": "https://github.com/dav-is/flarum-ext-customheader"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davis\\CustomHeader\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Custom Header",
+            "icon": {
+                "name": "columns",
+                "backgroundColor": "#8e44ad",
+                "color": "#ecf0f1"
+            }
+        }
+    }
+}
