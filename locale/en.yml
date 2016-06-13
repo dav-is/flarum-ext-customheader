@@ -2,7 +2,6 @@ davis-customheader:
   admin:
     settings:
       title: Custom Header Configuration
-      customheader: Header Http
-      heightofheader: Fixed Height of Header
-      jsofheader: Header Javascript
-      cssofheader: Header CSS
+      customheader: Custom Header HTML
+      jsofheader: Custom Header Javascript
+      cssofheader: Custom Header CSS

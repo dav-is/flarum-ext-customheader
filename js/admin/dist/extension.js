@@ -48,13 +48,7 @@ System.register('Davis/CustomHeader/components/CustomHeaderSettingsModal', ['fla
                 null,
                 app.translator.trans('davis-customheader.admin.settings.jsofheader')
               ),
-              m('textarea', { className: 'FormControl', type: 'text', bidi: this.setting('davis-customheader.jsofheader') }),
-              m(
-                'label',
-                null,
-                app.translator.trans('davis-customheader.admin.settings.heightofheader')
-              ),
-              m('input', { required: true, className: 'FormControl', type: 'number', bidi: this.setting('davis-customheader.heightofheader') })
+              m('textarea', { className: 'FormControl', type: 'text', bidi: this.setting('davis-customheader.jsofheader') })
             )];
           }
         }]);

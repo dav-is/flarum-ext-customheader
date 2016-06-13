@@ -20,9 +20,6 @@ export default class CustomHeaderSettingsModal extends SettingsModal {
         
         <label>{app.translator.trans('davis-customheader.admin.settings.jsofheader')}</label>
         <textarea className="FormControl" type="text" bidi={this.setting('davis-customheader.jsofheader')}></textarea>
-
-        <label>{app.translator.trans('davis-customheader.admin.settings.heightofheader')}</label>
-        <input required className="FormControl" type="number" bidi={this.setting('davis-customheader.heightofheader')}/>
       </div>
     ];
   }
