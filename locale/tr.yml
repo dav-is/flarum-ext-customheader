@@ -1,0 +1,7 @@
+davis-customheader:
+  admin:
+    settings:
+      title: Kişiselleştirilmiş başlık konfigürasyonu
+      customheader: Kişiselleştirilmiş başlık HTML'i
+      jsofheader: Kişiselleştirilmiş başlık Javascript'i
+      cssofheader: Kişiselleştirilmiş başlık CSS'i
